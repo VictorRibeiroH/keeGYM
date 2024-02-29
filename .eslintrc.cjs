@@ -18,4 +18,18 @@ module.exports = {
       { allowConstantExport: true },
     ],
   },
-}
+  overrides: [
+    {
+      files: ['*.css'], 
+      parser: 'postcss-eslint-parser', 
+      plugins: ['tailwindcss'],
+      processInline: true, 
+      rules: {
+        'at-rule-no-unknown': [ 
+          true,
+          { ignoreAtRules: ['tailwind'] },
+        ],
+      },
+    },
+  ],
+};

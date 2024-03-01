@@ -2,6 +2,7 @@ import Generator from "./components/Generator";
 import Hero from "./components/Hero";
 import Benefits from "./components/Benefits";
 import Plans from "./components/Plans";
+import Contact from "./components/Contact";
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <Generator />
       <Benefits />
       <Plans />
+      <Contact />
     </main>
   );
 }

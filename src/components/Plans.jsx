@@ -47,28 +47,19 @@ export default function Plans() {
             <h3 className="text-xl">Combo Mensal</h3>
           </div>
 
-          <h2 className="text-lg md:text-2xl">
+          <h2 className="text-2xl md:text-2xl">
             Plano <span className="mt-4 font-semibold">Mensal</span>
           </h2>
           <br />
           <p className="text-sm md:text-lg">
             de <span className="text-gray-500 cross-out">R$ 519,00 </span>
             por apenas <br />
-            <span className="text-lg md:text-xl font-bold"> R$287,00</span>
+            <p className="text-4xl text-black font-bold mt-3"> R$287,00</p>
           </p>
-          <button
-            style={{
-              marginTop: "30px", // Margem superior do botão
-              backgroundColor: "white",
-              color: "#60a5fa",
-              padding: "10px 20px", // Preenchimento do botão
-              borderRadius: "8px", // Raio da borda do botão
-              border: "none",
-              cursor: "pointer",
-              fontSize: "0.8rem", // Tamanho da fonte do botão
-            }}
-          >
-            Faça parte do time
+          <button className="mt-3 px-8 py-4 rounded-md border-[2px] bg-slate-950 border-blue-400 border-solid blueShadow duration-200">
+            <p>
+              Faça parte do <span className="uppercase font-bold">time</span>
+            </p>
           </button>
         </div>
 
@@ -113,28 +104,19 @@ export default function Plans() {
             <h3 className="text-xl">Combo Anual + Brinde</h3>
           </div>
 
-          <h2 className="text-lg md:text-2xl">
+          <h2 className="text-2xl md:text-2xl">
             Plano <span className="mt-4 font-semibold">Anual</span>
           </h2>
           <br />
           <p className="text-sm md:text-lg">
             de <span className="text-gray-500 cross-out">R$ 6.228,00 </span>
             por apenas <br />
-            <span className="text-lg md:text-xl font-bold"> R$ 3.400,00 </span>
+            <p className="text-4xl text-black font-bold mt-3"> R$ 3.400,00</p>
           </p>
-          <button
-            style={{
-              marginTop: "30px", // Margem superior do botão
-              backgroundColor: "white",
-              color: "#60a5fa",
-              padding: "10px 20px", // Preenchimento do botão
-              borderRadius: "8px", // Raio da borda do botão
-              border: "none",
-              cursor: "pointer",
-              fontSize: "0.8rem", // Tamanho da fonte do botão
-            }}
-          >
-            Faça parte do time
+          <button className="mt-3 px-8 py-4 rounded-md border-[2px] bg-slate-950 border-blue-400 border-solid blueShadow duration-200">
+            <p>
+              Faça parte do <span className="uppercase font-bold">time</span>
+            </p>
           </button>
         </div>
 
@@ -177,29 +159,19 @@ export default function Plans() {
           >
             <h3 className="text-xl">Combo Semestral</h3>
           </div>
-
-          <h2 className="text-lg md:text-2xl">
+          <h2 className="text-2xl md:text-2xl">
             Plano <span className="mt-4 font-semibold">Semestral</span>
           </h2>
           <br />
           <p className="text-sm md:text-lg">
             de <span className="text-gray-500 cross-out">R$ 3.114,00 </span>
             por apenas <br />
-            <span className="text-lg md:text-xl font-bold"> R$ 1.600,00</span>
+            <p className="text-4xl text-black font-bold mt-3"> R$ 1.600,00</p>
           </p>
-          <button
-            style={{
-              marginTop: "30px", // Margem superior do botão
-              backgroundColor: "white",
-              color: "#60a5fa",
-              padding: "10px 20px", // Preenchimento do botão
-              borderRadius: "8px", // Raio da borda do botão
-              border: "none",
-              cursor: "pointer",
-              fontSize: "0.8rem", // Tamanho da fonte do botão
-            }}
-          >
-            Faça parte do time
+          <button className="mt-3 px-8 py-4 rounded-md border-[2px] bg-slate-950 border-blue-400 border-solid blueShadow duration-200">
+            <p>
+              Faça parte do <span className="uppercase font-bold">time</span>
+            </p>
           </button>
         </div>
       </div>

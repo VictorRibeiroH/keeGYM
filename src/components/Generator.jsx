@@ -1,7 +1,11 @@
-import React from 'react'
+import React from "react";
+import SectionWrapper from "./SectionWrapper";
 
 export default function Generator() {
   return (
-    <div>Generator</div>
-  )
+    <SectionWrapper
+      header={"Descubra seu treino"}
+      title={["Chegou a", "hora da", " transformação"]}
+    ></SectionWrapper>
+  );
 }

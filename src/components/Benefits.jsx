@@ -32,7 +32,7 @@ export default function Benefits() {
   const bottomCards = miniCardsData.slice(2);
 
   return (
-    <Section header={"Conheça alguns dos benefícios"}>
+    <Section id="beneficios" header={"Conheça alguns dos benefícios"}>
       <div
         style={{
           display: "flex",

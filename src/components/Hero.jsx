@@ -16,9 +16,9 @@ export default function Hero() {
         </span>
       </p>
       <button className="px-8 py-4 rounded-md border-[2px] bg-slate-950 border-blue-400 border-solid blueShadow duration-200">
-        <p>
+        <a href="#contato">
           Faça parte do <span className="uppercase font-bold">time</span>
-        </p>
+        </a>
       </button>
     </div>
   );

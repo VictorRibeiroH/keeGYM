@@ -33,6 +33,7 @@ export default function Contact() {
 
   return (
     <Section
+      id="contato"
       header={"Entre em contato"}
       title={"Tire suas dúvidas e entre hoje mesmo para o time!"}
     >

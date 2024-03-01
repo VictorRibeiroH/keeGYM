@@ -4,6 +4,7 @@ import Section from "./Section";
 export default function Plans() {
   return (
     <Section
+      id="planos"
       header={"Conheça nossos planos"}
       title={["Agora é a hora de construir a sua", " melhor versão!"]}
     >
@@ -65,10 +66,10 @@ export default function Plans() {
             por apenas <br />
             <p className="text-4xl text-black font-bold mt-3"> R$287,00</p>
           </p>
-          <button className="mt-3 px-8 py-4 rounded-md border-[2px] bg-slate-950 border-blue-400 border-solid blueShadow duration-200">
-            <p>
+          <button className="px-8 py-4 rounded-md border-[2px] bg-slate-950 border-blue-400 border-solid blueShadow duration-200">
+            <a href="#contato">
               Faça parte do <span className="uppercase font-bold">time</span>
-            </p>
+            </a>
           </button>
         </div>
 
@@ -132,10 +133,10 @@ export default function Plans() {
             <p className="text-4xl text-black font-bold mt-3"> R$ 283,33</p>
           </p>
           <p className="text-sm md:text-lg">em 12x</p>
-          <button className="mt-3 px-8 py-4 rounded-md border-[2px] bg-slate-950 border-blue-400 border-solid blueShadow duration-200">
-            <p>
+          <button className="px-8 py-4 rounded-md border-[2px] bg-slate-950 border-blue-400 border-solid blueShadow duration-200">
+            <a href="#contato">
               Faça parte do <span className="uppercase font-bold">time</span>
-            </p>
+            </a>
           </button>
         </div>
 
@@ -197,10 +198,10 @@ export default function Plans() {
             <p className="text-4xl text-black font-bold mt-3"> R$ 266,66</p>
           </p>
           <p className="text-sm md:text-lg">em 6x</p>
-          <button className="mt-3 px-8 py-4 rounded-md border-[2px] bg-slate-950 border-blue-400 border-solid blueShadow duration-200">
-            <p>
+          <button className="px-8 py-4 rounded-md border-[2px] bg-slate-950 border-blue-400 border-solid blueShadow duration-200">
+            <a href="#contato">
               Faça parte do <span className="uppercase font-bold">time</span>
-            </p>
+            </a>
           </button>
         </div>
       </div>

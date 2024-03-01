@@ -23,3 +23,55 @@ span {
   transform: translate(-3px, -3px);
   box-shadow: 6px 6px 0 0 #60a5fa;
 }
+
+.cross-out {
+  position: relative;
+  color: #000; /* cor do texto */
+}
+
+.cross-out::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 100%;
+  height: 2px; /* altura da linha */
+  background-color: #ff0000; /* cor do risco */
+}
+
+/* Estilizando a barra de rolagem do navegador */
+/* Webkit (Chrome, Safari, Opera) */
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #60a5fa;
+  border-radius: 10px;
+}
+
+/* Firefox */
+::-moz-scrollbar {
+  width: 12px;
+}
+
+::-moz-scrollbar-thumb {
+  background-color: #60a5fa;
+  border-radius: 10px;
+}
+
+/* Estilo da barra de rolagem quando estiver na vertical */
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+/* Estilo da barra de rolagem quando estiver na horizontal */
+::-webkit-scrollbar-track-piece:end {
+  background: transparent;
+}
+
+/* Ocultando a barra de rolagem do navegador */
+body {
+  scrollbar-width: thin;
+  scrollbar-color: #60a5fa transparent;
+}

@@ -89,7 +89,7 @@ export default function Generator() {
           vai indicar e ensinar. Vai ter um treinador de verdade direcionando
           seus treinos e te ajudando a ter resultados.
         </p>
-        <button className="px-8 py-4 rounded-md border-[2px] bg-slate-950 border-blue-400 border-solid blueShadow duration-200">
+        <button className="mt-8 mb-16 px-8 py-4 rounded-md border-[2px] bg-slate-950 border-blue-400 border-solid blueShadow duration-200">
           <a href="#contato">
             Faça parte do <span className="uppercase font-bold">time</span>
           </a>

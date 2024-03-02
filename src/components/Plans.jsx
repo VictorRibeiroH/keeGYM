@@ -58,7 +58,7 @@ export default function Plans() {
           </div>
 
           <h2 className="text-2xl md:text-2xl">
-            Plano <span className="mt-4 font-semibold">Mensal</span>
+            Plano <span className="font-semibold">Mensal</span>
           </h2>
           <br />
           <p className="text-sm md:text-lg">
@@ -66,7 +66,7 @@ export default function Plans() {
             por apenas <br />
             <p className="text-4xl text-black font-bold mt-3"> R$287,00</p>
           </p>
-          <button className="px-8 py-4 rounded-md border-[2px] bg-slate-950 border-blue-400 border-solid blueShadow duration-200">
+          <button className="mt-4 px-8 py-4 rounded-md border-[2px] bg-slate-950 border-blue-400 border-solid blueShadow duration-200">
             <a href="#contato">
               Faça parte do <span className="uppercase font-bold">time</span>
             </a>
@@ -133,7 +133,7 @@ export default function Plans() {
             <p className="text-4xl text-black font-bold mt-3"> R$ 283,33</p>
           </p>
           <p className="text-sm md:text-lg">em 12x</p>
-          <button className="px-8 py-4 rounded-md border-[2px] bg-slate-950 border-blue-400 border-solid blueShadow duration-200">
+          <button className="mt-3 px-8 py-4 rounded-md border-[2px] bg-slate-950 border-blue-400 border-solid blueShadow duration-200">
             <a href="#contato">
               Faça parte do <span className="uppercase font-bold">time</span>
             </a>
@@ -198,7 +198,7 @@ export default function Plans() {
             <p className="text-4xl text-black font-bold mt-3"> R$ 266,66</p>
           </p>
           <p className="text-sm md:text-lg">em 6x</p>
-          <button className="px-8 py-4 rounded-md border-[2px] bg-slate-950 border-blue-400 border-solid blueShadow duration-200">
+          <button className="mt-3 px-8 py-4 rounded-md border-[2px] bg-slate-950 border-blue-400 border-solid blueShadow duration-200">
             <a href="#contato">
               Faça parte do <span className="uppercase font-bold">time</span>
             </a>

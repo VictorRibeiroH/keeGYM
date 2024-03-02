@@ -40,10 +40,7 @@ export default function Contact() {
       <div className="flex flex-col items-center">
         <form className="max-w-md w-full">
           <div className="mb-4">
-            <label
-              htmlFor="name"
-              className="block font-semibold mb-1 text-center"
-            >
+            <label htmlFor="name" className="block font-semibold mb-1">
               Nome
             </label>
             <input
@@ -53,14 +50,10 @@ export default function Contact() {
               value={formData.name}
               onChange={handleChange}
               className="w-full border rounded px-3 py-2 text-black"
-              style={{ textAlign: "center" }}
             />
           </div>
           <div className="mb-4">
-            <label
-              htmlFor="email"
-              className="block font-semibold mb-1 text-center"
-            >
+            <label htmlFor="email" className="block font-semibold mb-1">
               Email
             </label>
             <input
@@ -70,14 +63,10 @@ export default function Contact() {
               value={formData.email}
               onChange={handleChange}
               className="w-full border rounded px-3 py-2 text-black"
-              style={{ textAlign: "center" }}
             />
           </div>
           <div className="mb-4">
-            <label
-              htmlFor="phone"
-              className="block font-semibold mb-1 text-center"
-            >
+            <label htmlFor="phone" className="block font-semibold mb-1">
               Número de telefone
             </label>
             <input
@@ -87,14 +76,10 @@ export default function Contact() {
               value={formData.phone}
               onChange={handleChange}
               className="w-full border rounded px-3 py-2 text-black"
-              style={{ textAlign: "center" }}
             />
           </div>
           <div className="mb-4">
-            <label
-              htmlFor="message"
-              className="block font-semibold mb-1 text-center"
-            >
+            <label htmlFor="message" className="block font-semibold mb-1">
               Mensagem
             </label>
             <textarea
@@ -104,18 +89,17 @@ export default function Contact() {
               value={formData.message}
               onChange={handleChange}
               className="w-full border rounded px-3 py-2 resize-none text-black"
-              style={{ textAlign: "center" }}
             ></textarea>
           </div>
           <div className="flex justify-between">
             <button
-              className="bg-blue-500 bg-opacity-50 justify-center text-white font-bold py-3 px-4 rounded-full inline-flex items-center flex-grow hover:bg-white hover:text-blue-500 transition duration-300 mx-1"
+              className="bg-blue-500 bg-opacity-50 justify-center text-white font-bold py-3 px-4 rounded-md inline-flex items-center flex-grow hover:bg-white hover:text-blue-500 transition duration-300 mx-1"
               onClick={handleEmailButtonClick}
             >
               Email
             </button>
             <button
-              className="bg-green-500 bg-opacity-50 justify-center text-white font-bold py-3 px-4 rounded-full inline-flex items-center flex-grow hover:bg-white hover:text-green-500 transition duration-300 mx-1"
+              className="bg-green-500 bg-opacity-50 justify-center text-white font-bold py-3 px-4 rounded-md inline-flex items-center flex-grow hover:bg-white hover:text-green-500 transition duration-300 mx-1"
               onClick={handleWhatsAppButtonClick}
             >
               WhatsApp

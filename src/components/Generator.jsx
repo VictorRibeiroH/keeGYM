@@ -2,12 +2,12 @@ import React, { useState } from "react";
 import SectionWrapper from "./SectionWrapper";
 
 // Importe as imagens
-import Card1 from "../assets/Card1.jpg";
-import Card2 from "../assets/Card2.jpg";
-import Card3 from "../assets/Card3.jpg";
-import Card4 from "../assets/Card4.jpg";
-import Card5 from "../assets/Card5.jpg";
-import Card6 from "../assets/Card6.jpg";
+import Card1 from "../assets/Card1.png";
+import Card2 from "../assets/Card2.png";
+import Card3 from "../assets/Card3.png";
+import Card4 from "../assets/Card4.png";
+import Card5 from "../assets/Card5.png";
+import Card6 from "../assets/Card6.png";
 
 export default function Generator() {
   const [hoveredIndex, setHoveredIndex] = useState(null);
